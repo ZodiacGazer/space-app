@@ -1,0 +1,8 @@
+.social__list {
+	position: absolute;
+	bottom: 10px;
+	width: 80px;
+	left: 0;
+	right: 0;
+	margin: 0 auto 20px auto;
+}

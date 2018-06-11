@@ -1,0 +1,23 @@
+
+.spacex {
+	background: #ECF0F0;
+}
+
+.spacex-icon {
+	transform: rotate(-90deg);
+}
+
+
+.payload {
+	position:relative;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
+	grid-row-gap: 20px;
+}
+
+
+.payload-icon {
+	width: 60px;
+	margin: auto;
+}

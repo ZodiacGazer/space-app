@@ -1,0 +1,13 @@
+.social__item {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.soc__icon {
+	color: rgba(225, 246, 255, 0.3);
+	transition: color .2s;
+}
+
+.soc__icon:hover {
+	color: rgba(255,255,255, 0.9);
+}

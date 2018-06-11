@@ -1,0 +1,30 @@
+.spacex {
+	background: #ECF0F0;
+}
+
+.apod {
+	background: #ebf0df;
+}
+
+.iss {
+	background: #C4CBCA;
+}
+
+.loader {
+	position: relative;
+	left: 50%;
+	margin-left: -40px;
+	top: 50%;
+	margin-top: -80px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+	border-top: 7px solid #8ACB82;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}

@@ -1,0 +1,65 @@
+.flag__container {
+	background: #8ACB82;
+	font-weight: normal;
+	padding: 10px 20px;
+	text-align: center;
+	color: #ffc;
+	position: relative;
+	z-index: 1;
+	font-size: 18px;
+}
+
+.flag {
+	position: relative;
+	min-width: 200px;
+	margin: 0px auto 60px auto;
+	left: 50%;
+	transform: translateX(-50%);
+	display: inline-block;
+}
+
+.flag:before {
+	content: '';
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 52px;
+    left: -20px;
+    background: #75ad6f;
+    top: -13px;
+}
+
+.flag:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 52px;
+    right: -20px;
+    background: #75ad6f;
+    top: 3px;
+}
+
+.flag__container:before {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+  	border-bottom: 8px solid rgba(8, 11, 12, 0.2);
+  	left: -2px;
+    top: -8px;
+}
+
+.flag__container:after	 {
+	position: absolute;
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+	border-bottom: 8px solid transparent;
+  	border-left: 8px solid rgba(8, 11, 12, 0.2);
+  	right: -2px;
+    bottom: -8px;
+}

@@ -1,0 +1,19 @@
+.iss {
+	background: #C4CBCA;
+}
+
+#map {
+	width: auto;
+	height: 800px;
+}
+
+.crew {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-items: center;
+	grid-row-gap: 30px;
+}
+
+.astronaut__pic {
+	width: 200px;
+}

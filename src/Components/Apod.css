@@ -1,0 +1,38 @@
+.apod {
+	background: #ebf0df;
+}
+
+.apod-icon {
+	position: absolute;
+	top: 50%;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.left {
+	left: -3rem;
+}
+
+.right {
+	right: -3rem;
+}
+
+
+
+.fetchingApod-enter {
+	opacity: 0;
+}
+
+.fetchingApod-enter-active {
+	opacity: 1;
+	transition: all 300ms ease-out;
+}
+
+.fetchingApod-exit {
+	opacity: 1;
+}
+
+.fetchingApod-exit-active {
+	opacity: 0;
+	transition: all 300ms ease-out;
+}

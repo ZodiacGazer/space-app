@@ -1,0 +1,11 @@
+.notfound__title {
+	text-align: center;
+	font-size: 40px;
+}
+
+.notfound__icon {
+	display: block;
+    text-align: center;
+    margin: 40px 0 100px 0px;
+    font-size: 160px;
+}
